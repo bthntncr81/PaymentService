@@ -1,0 +1,344 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.WebAPI/PaymentService.WebAPI.csproj": {}
+  },
+  "projects": {
+    "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/PaymentService.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/PaymentService.Data.csproj",
+        "projectName": "PaymentService.Data",
+        "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/PaymentService.Data.csproj",
+        "packagesPath": "/Users/omerbatuhantuncer/.nuget/packages/",
+        "outputPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/omerbatuhantuncer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CP.VPOS": {
+              "target": "Package",
+              "version": "[1.8.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/PaymentService.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/PaymentService.Repository.csproj",
+        "projectName": "PaymentService.Repository",
+        "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/PaymentService.Repository.csproj",
+        "packagesPath": "/Users/omerbatuhantuncer/.nuget/packages/",
+        "outputPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/omerbatuhantuncer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/PaymentService.Data.csproj": {
+                "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/PaymentService.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Xml": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/PaymentService.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/PaymentService.Services.csproj",
+        "projectName": "PaymentService.Services",
+        "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/PaymentService.Services.csproj",
+        "packagesPath": "/Users/omerbatuhantuncer/.nuget/packages/",
+        "outputPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/omerbatuhantuncer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/PaymentService.Data.csproj": {
+                "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/PaymentService.Data.csproj"
+              },
+              "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/PaymentService.Repository.csproj": {
+                "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/PaymentService.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "CP.VPOS": {
+              "target": "Package",
+              "version": "[1.8.7, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.WebAPI/PaymentService.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.WebAPI/PaymentService.WebAPI.csproj",
+        "projectName": "PaymentService.WebAPI",
+        "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.WebAPI/PaymentService.WebAPI.csproj",
+        "packagesPath": "/Users/omerbatuhantuncer/.nuget/packages/",
+        "outputPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.WebAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/omerbatuhantuncer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/PaymentService.Services.csproj": {
+                "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/PaymentService.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CP.VPOS": {
+              "target": "Package",
+              "version": "[1.8.7, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

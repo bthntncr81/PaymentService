@@ -1,0 +1,17 @@
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/bin/Debug/net8.0/PaymentService.Repository.deps.json
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/bin/Debug/net8.0/PaymentService.Repository.dll
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/bin/Debug/net8.0/PaymentService.Repository.pdb
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/bin/Debug/net8.0/PaymentService.Data.dll
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/bin/Debug/net8.0/PaymentService.Data.pdb
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/obj/Debug/net8.0/PaymentService.Repository.csproj.AssemblyReference.cache
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/obj/Debug/net8.0/PaymentService.Repository.GeneratedMSBuildEditorConfig.editorconfig
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/obj/Debug/net8.0/PaymentService.Repository.AssemblyInfoInputs.cache
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/obj/Debug/net8.0/PaymentService.Repository.AssemblyInfo.cs
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/obj/Debug/net8.0/PaymentService.Repository.csproj.CoreCompileInputs.cache
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/obj/Debug/net8.0/PaymentS.BD882B95.Up2Date
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/obj/Debug/net8.0/PaymentService.Repository.dll
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/obj/Debug/net8.0/refint/PaymentService.Repository.dll
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/obj/Debug/net8.0/PaymentService.Repository.pdb
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/obj/Debug/net8.0/ref/PaymentService.Repository.dll
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/bin/Debug/net8.0/PaymentService.Repository.runtimeconfig.json
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/obj/Debug/net8.0/PaymentService.Repository.genruntimeconfig.cache

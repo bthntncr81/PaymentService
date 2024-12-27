@@ -1,0 +1,12 @@
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/bin/Debug/net8.0/PaymentService.Data.deps.json
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/bin/Debug/net8.0/PaymentService.Data.dll
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/bin/Debug/net8.0/PaymentService.Data.pdb
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/obj/Debug/net8.0/PaymentService.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/obj/Debug/net8.0/PaymentService.Data.AssemblyInfoInputs.cache
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/obj/Debug/net8.0/PaymentService.Data.AssemblyInfo.cs
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/obj/Debug/net8.0/PaymentService.Data.csproj.CoreCompileInputs.cache
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/obj/Debug/net8.0/PaymentService.Data.dll
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/obj/Debug/net8.0/refint/PaymentService.Data.dll
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/obj/Debug/net8.0/PaymentService.Data.pdb
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/obj/Debug/net8.0/ref/PaymentService.Data.dll
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/obj/Debug/net8.0/PaymentService.Data.csproj.AssemblyReference.cache

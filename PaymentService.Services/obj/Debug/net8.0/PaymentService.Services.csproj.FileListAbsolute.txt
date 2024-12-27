@@ -1,0 +1,17 @@
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/bin/Debug/net8.0/PaymentService.Services.deps.json
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/bin/Debug/net8.0/PaymentService.Services.dll
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/bin/Debug/net8.0/PaymentService.Services.pdb
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/bin/Debug/net8.0/PaymentService.Data.dll
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/bin/Debug/net8.0/PaymentService.Repository.dll
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/bin/Debug/net8.0/PaymentService.Repository.pdb
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/bin/Debug/net8.0/PaymentService.Data.pdb
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/obj/Debug/net8.0/PaymentService.Services.csproj.AssemblyReference.cache
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/obj/Debug/net8.0/PaymentService.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/obj/Debug/net8.0/PaymentService.Services.AssemblyInfoInputs.cache
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/obj/Debug/net8.0/PaymentService.Services.AssemblyInfo.cs
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/obj/Debug/net8.0/PaymentService.Services.csproj.CoreCompileInputs.cache
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/obj/Debug/net8.0/PaymentS.361896B3.Up2Date
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/obj/Debug/net8.0/PaymentService.Services.dll
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/obj/Debug/net8.0/refint/PaymentService.Services.dll
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/obj/Debug/net8.0/PaymentService.Services.pdb
+/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/obj/Debug/net8.0/ref/PaymentService.Services.dll
