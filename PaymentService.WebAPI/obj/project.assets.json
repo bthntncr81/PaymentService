@@ -4251,11 +4251,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.WebAPI/PaymentService.WebAPI.csproj",
+      "projectUniqueName": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.WebAPI/PaymentService.WebAPI.csproj",
       "projectName": "PaymentService.WebAPI",
-      "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.WebAPI/PaymentService.WebAPI.csproj",
+      "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.WebAPI/PaymentService.WebAPI.csproj",
       "packagesPath": "/Users/omerbatuhantuncer/.nuget/packages/",
-      "outputPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.WebAPI/obj/",
+      "outputPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.WebAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/omerbatuhantuncer/.nuget/NuGet/NuGet.Config"
@@ -4270,8 +4270,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/PaymentService.Services.csproj": {
-              "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/PaymentService.Services.csproj"
+            "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Services/PaymentService.Services.csproj": {
+              "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Services/PaymentService.Services.csproj"
             }
           }
         }

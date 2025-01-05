@@ -3724,11 +3724,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/PaymentService.Services.csproj",
+      "projectUniqueName": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Services/PaymentService.Services.csproj",
       "projectName": "PaymentService.Services",
-      "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/PaymentService.Services.csproj",
+      "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Services/PaymentService.Services.csproj",
       "packagesPath": "/Users/omerbatuhantuncer/.nuget/packages/",
-      "outputPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/obj/",
+      "outputPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Services/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/omerbatuhantuncer/.nuget/NuGet/NuGet.Config"
@@ -3743,11 +3743,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/PaymentService.Data.csproj": {
-              "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/PaymentService.Data.csproj"
+            "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj": {
+              "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj"
             },
-            "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/PaymentService.Repository.csproj": {
-              "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/PaymentService.Repository.csproj"
+            "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Repository/PaymentService.Repository.csproj": {
+              "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Repository/PaymentService.Repository.csproj"
             }
           }
         }

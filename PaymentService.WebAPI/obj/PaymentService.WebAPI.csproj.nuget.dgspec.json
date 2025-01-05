@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.WebAPI/PaymentService.WebAPI.csproj": {}
+    "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.WebAPI/PaymentService.WebAPI.csproj": {}
   },
   "projects": {
-    "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/PaymentService.Data.csproj": {
+    "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/PaymentService.Data.csproj",
+        "projectUniqueName": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj",
         "projectName": "PaymentService.Data",
-        "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/PaymentService.Data.csproj",
+        "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj",
         "packagesPath": "/Users/omerbatuhantuncer/.nuget/packages/",
-        "outputPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/obj/",
+        "outputPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/omerbatuhantuncer/.nuget/NuGet/NuGet.Config"
@@ -68,14 +68,14 @@
         }
       }
     },
-    "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/PaymentService.Repository.csproj": {
+    "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Repository/PaymentService.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/PaymentService.Repository.csproj",
+        "projectUniqueName": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Repository/PaymentService.Repository.csproj",
         "projectName": "PaymentService.Repository",
-        "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/PaymentService.Repository.csproj",
+        "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Repository/PaymentService.Repository.csproj",
         "packagesPath": "/Users/omerbatuhantuncer/.nuget/packages/",
-        "outputPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/obj/",
+        "outputPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Repository/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/omerbatuhantuncer/.nuget/NuGet/NuGet.Config"
@@ -90,8 +90,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/PaymentService.Data.csproj": {
-                "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/PaymentService.Data.csproj"
+              "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj": {
+                "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj"
               }
             }
           }
@@ -162,14 +162,14 @@
         }
       }
     },
-    "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/PaymentService.Services.csproj": {
+    "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Services/PaymentService.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/PaymentService.Services.csproj",
+        "projectUniqueName": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Services/PaymentService.Services.csproj",
         "projectName": "PaymentService.Services",
-        "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/PaymentService.Services.csproj",
+        "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Services/PaymentService.Services.csproj",
         "packagesPath": "/Users/omerbatuhantuncer/.nuget/packages/",
-        "outputPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/obj/",
+        "outputPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Services/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/omerbatuhantuncer/.nuget/NuGet/NuGet.Config"
@@ -184,11 +184,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/PaymentService.Data.csproj": {
-                "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/PaymentService.Data.csproj"
+              "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj": {
+                "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj"
               },
-              "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/PaymentService.Repository.csproj": {
-                "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Repository/PaymentService.Repository.csproj"
+              "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Repository/PaymentService.Repository.csproj": {
+                "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Repository/PaymentService.Repository.csproj"
               }
             }
           }
@@ -249,14 +249,14 @@
         }
       }
     },
-    "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.WebAPI/PaymentService.WebAPI.csproj": {
+    "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.WebAPI/PaymentService.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.WebAPI/PaymentService.WebAPI.csproj",
+        "projectUniqueName": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.WebAPI/PaymentService.WebAPI.csproj",
         "projectName": "PaymentService.WebAPI",
-        "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.WebAPI/PaymentService.WebAPI.csproj",
+        "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.WebAPI/PaymentService.WebAPI.csproj",
         "packagesPath": "/Users/omerbatuhantuncer/.nuget/packages/",
-        "outputPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.WebAPI/obj/",
+        "outputPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.WebAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/omerbatuhantuncer/.nuget/NuGet/NuGet.Config"
@@ -271,8 +271,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/PaymentService.Services.csproj": {
-                "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Services/PaymentService.Services.csproj"
+              "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Services/PaymentService.Services.csproj": {
+                "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Services/PaymentService.Services.csproj"
               }
             }
           }

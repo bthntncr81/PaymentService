@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/PaymentService.Data.csproj": {}
+    "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj": {}
   },
   "projects": {
-    "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/PaymentService.Data.csproj": {
+    "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/PaymentService.Data.csproj",
+        "projectUniqueName": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj",
         "projectName": "PaymentService.Data",
-        "projectPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/PaymentService.Data.csproj",
+        "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj",
         "packagesPath": "/Users/omerbatuhantuncer/.nuget/packages/",
-        "outputPath": "/Users/omerbatuhantuncer/Desktop/PaymentSystem/PaymentService.Data/obj/",
+        "outputPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/omerbatuhantuncer/.nuget/NuGet/NuGet.Config"
