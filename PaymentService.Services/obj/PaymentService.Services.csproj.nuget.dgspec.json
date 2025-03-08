@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Services/PaymentService.Services.csproj": {}
+    "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Services/PaymentService.Services.csproj": {}
   },
   "projects": {
-    "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj": {
+    "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Data/PaymentService.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj",
+        "projectUniqueName": "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Data/PaymentService.Data.csproj",
         "projectName": "PaymentService.Data",
-        "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj",
+        "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Data/PaymentService.Data.csproj",
         "packagesPath": "/Users/omerbatuhantuncer/.nuget/packages/",
-        "outputPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/obj/",
+        "outputPath": "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/omerbatuhantuncer/.nuget/NuGet/NuGet.Config"
@@ -46,6 +46,10 @@
             "CP.VPOS": {
               "target": "Package",
               "version": "[1.8.7, )"
+            },
+            "Iyzipay": {
+              "target": "Package",
+              "version": "[2.1.66, )"
             }
           },
           "imports": [
@@ -64,18 +68,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.405/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Repository/PaymentService.Repository.csproj": {
+    "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Repository/PaymentService.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Repository/PaymentService.Repository.csproj",
+        "projectUniqueName": "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Repository/PaymentService.Repository.csproj",
         "projectName": "PaymentService.Repository",
-        "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Repository/PaymentService.Repository.csproj",
+        "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Repository/PaymentService.Repository.csproj",
         "packagesPath": "/Users/omerbatuhantuncer/.nuget/packages/",
-        "outputPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Repository/obj/",
+        "outputPath": "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Repository/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/omerbatuhantuncer/.nuget/NuGet/NuGet.Config"
@@ -90,8 +94,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj": {
-                "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj"
+              "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Data/PaymentService.Data.csproj": {
+                "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Data/PaymentService.Data.csproj"
               }
             }
           }
@@ -158,18 +162,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.405/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Services/PaymentService.Services.csproj": {
+    "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Services/PaymentService.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Services/PaymentService.Services.csproj",
+        "projectUniqueName": "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Services/PaymentService.Services.csproj",
         "projectName": "PaymentService.Services",
-        "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Services/PaymentService.Services.csproj",
+        "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Services/PaymentService.Services.csproj",
         "packagesPath": "/Users/omerbatuhantuncer/.nuget/packages/",
-        "outputPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Services/obj/",
+        "outputPath": "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Services/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/omerbatuhantuncer/.nuget/NuGet/NuGet.Config"
@@ -184,11 +188,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj": {
-                "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj"
+              "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Data/PaymentService.Data.csproj": {
+                "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Data/PaymentService.Data.csproj"
               },
-              "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Repository/PaymentService.Repository.csproj": {
-                "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Repository/PaymentService.Repository.csproj"
+              "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Repository/PaymentService.Repository.csproj": {
+                "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Repository/PaymentService.Repository.csproj"
               }
             }
           }
@@ -214,7 +218,7 @@
             },
             "CP.VPOS": {
               "target": "Package",
-              "version": "[1.8.7, )"
+              "version": "[1.8.8, )"
             },
             "FluentValidation": {
               "target": "Package",
@@ -223,6 +227,10 @@
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[11.3.0, )"
+            },
+            "Iyzipay": {
+              "target": "Package",
+              "version": "[2.1.66, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -245,7 +253,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.405/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

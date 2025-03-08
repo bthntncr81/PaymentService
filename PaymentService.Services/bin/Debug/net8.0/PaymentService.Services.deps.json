@@ -9,9 +9,10 @@
       "PaymentService.Services/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
-          "CP.VPOS": "1.8.7",
+          "CP.VPOS": "1.8.8",
           "FluentValidation": "11.11.0",
           "FluentValidation.AspNetCore": "11.3.0",
+          "Iyzipay": "2.1.66",
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "PaymentService.Data": "1.0.0",
           "PaymentService.Repository": "1.0.0"
@@ -66,15 +67,15 @@
           }
         }
       },
-      "CP.VPOS/1.8.7": {
+      "CP.VPOS/1.8.8": {
         "dependencies": {
-          "Newtonsoft.Json": "13.0.1",
+          "Newtonsoft.Json": "13.0.2",
           "System.ComponentModel.Annotations": "5.0.0"
         },
         "runtime": {
           "lib/net8.0/CP.VPOS.dll": {
-            "assemblyVersion": "1.8.7.0",
-            "fileVersion": "1.8.7.0"
+            "assemblyVersion": "1.8.8.0",
+            "fileVersion": "1.8.8.0"
           }
         }
       },
@@ -107,6 +108,17 @@
           "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
             "assemblyVersion": "11.0.0.0",
             "fileVersion": "11.5.1.0"
+          }
+        }
+      },
+      "Iyzipay/2.1.66": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Iyzipay.dll": {
+            "assemblyVersion": "2.1.66.0",
+            "fileVersion": "2.1.66.0"
           }
         }
       },
@@ -567,11 +579,11 @@
           }
         }
       },
-      "Newtonsoft.Json/13.0.1": {
+      "Newtonsoft.Json/13.0.2": {
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "13.0.0.0",
-            "fileVersion": "13.0.1.25517"
+            "fileVersion": "13.0.2.27524"
           }
         }
       },
@@ -830,7 +842,8 @@
       },
       "PaymentService.Data/1.0.0": {
         "dependencies": {
-          "CP.VPOS": "1.8.7"
+          "CP.VPOS": "1.8.8",
+          "Iyzipay": "2.1.66"
         },
         "runtime": {
           "PaymentService.Data.dll": {
@@ -885,12 +898,12 @@
       "path": "azure.identity/1.11.4",
       "hashPath": "azure.identity.1.11.4.nupkg.sha512"
     },
-    "CP.VPOS/1.8.7": {
+    "CP.VPOS/1.8.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BBknkHUD9c6kPWAlZnDNmCUzVeK322Ex3ENU6eQhLUq37rRcvXH4ERO5tfdHS1nTeTEuxk/VAcnvbw5M3mYcsg==",
-      "path": "cp.vpos/1.8.7",
-      "hashPath": "cp.vpos.1.8.7.nupkg.sha512"
+      "sha512": "sha512-FMd0U/xvQZfN89Bpld7kXbIdn34N0VcVDC4WC0qSSP+wuaUu5/3c03dwDvd6TtZv1Rp9GfGca+hd0EdlrAPnkQ==",
+      "path": "cp.vpos/1.8.8",
+      "hashPath": "cp.vpos.1.8.8.nupkg.sha512"
     },
     "FluentValidation/11.11.0": {
       "type": "package",
@@ -912,6 +925,13 @@
       "sha512": "sha512-iWM0LS1MDYX06pcjMEQKqHirl2zkjHlNV23mEJSoR1IZI7KQmTa0RcTtGEJpj5+iHvBCfrzP2mYKM4FtRKVb+A==",
       "path": "fluentvalidation.dependencyinjectionextensions/11.5.1",
       "hashPath": "fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512"
+    },
+    "Iyzipay/2.1.66": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9VXwKaLqO5I3EYo9Lk3x93QiARqYZO8CHqFxv+QudOz9V4lGs1hs8JVYFe40m/jTQ8QfHPKsnQm6ju3Qe8YroA==",
+      "path": "iyzipay/2.1.66",
+      "hashPath": "iyzipay.2.1.66.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
@@ -1186,12 +1206,12 @@
       "path": "microsoft.win32.systemevents/6.0.0",
       "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
     },
-    "Newtonsoft.Json/13.0.1": {
+    "Newtonsoft.Json/13.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
-      "path": "newtonsoft.json/13.0.1",
-      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+      "sha512": "sha512-R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+      "path": "newtonsoft.json/13.0.2",
+      "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
     },
     "System.ClientModel/1.0.0": {
       "type": "package",

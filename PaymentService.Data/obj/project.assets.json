@@ -15,15 +15,27 @@
           "lib/net8.0/CP.VPOS.dll": {}
         }
       },
-      "Newtonsoft.Json/13.0.1": {
+      "Iyzipay/2.1.66": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.1/Iyzipay.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Iyzipay.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -65,14 +77,28 @@
         "packageIcon.png"
       ]
     },
-    "Newtonsoft.Json/13.0.1": {
-      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+    "Iyzipay/2.1.66": {
+      "sha512": "9VXwKaLqO5I3EYo9Lk3x93QiARqYZO8CHqFxv+QudOz9V4lGs1hs8JVYFe40m/jTQ8QfHPKsnQm6ju3Qe8YroA==",
       "type": "package",
-      "path": "newtonsoft.json/13.0.1",
+      "path": "iyzipay/2.1.66",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "iyzipay.2.1.66.nupkg.sha512",
+        "iyzipay.nuspec",
+        "lib/net45/Iyzipay.dll",
+        "lib/netstandard2.1/Iyzipay.dll"
+      ]
+    },
+    "Newtonsoft.Json/13.0.2": {
+      "sha512": "R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
+        "README.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -81,13 +107,15 @@
         "lib/net40/Newtonsoft.Json.xml",
         "lib/net45/Newtonsoft.Json.dll",
         "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
         "lib/netstandard1.0/Newtonsoft.Json.dll",
         "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/netstandard1.3/Newtonsoft.Json.dll",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
         "lib/netstandard2.0/Newtonsoft.Json.dll",
         "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.13.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
@@ -185,7 +213,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "CP.VPOS >= 1.8.7"
+      "CP.VPOS >= 1.8.7",
+      "Iyzipay >= 2.1.66"
     ]
   },
   "packageFolders": {
@@ -194,11 +223,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj",
+      "projectUniqueName": "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Data/PaymentService.Data.csproj",
       "projectName": "PaymentService.Data",
-      "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/PaymentService.Data.csproj",
+      "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Data/PaymentService.Data.csproj",
       "packagesPath": "/Users/omerbatuhantuncer/.nuget/packages/",
-      "outputPath": "/Users/omerbatuhantuncer/Documents/GitHub/PaymentService/PaymentService.Data/obj/",
+      "outputPath": "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Data/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/omerbatuhantuncer/.nuget/NuGet/NuGet.Config"
@@ -233,6 +262,10 @@
           "CP.VPOS": {
             "target": "Package",
             "version": "[1.8.7, )"
+          },
+          "Iyzipay": {
+            "target": "Package",
+            "version": "[2.1.66, )"
           }
         },
         "imports": [
@@ -251,7 +284,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.405/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

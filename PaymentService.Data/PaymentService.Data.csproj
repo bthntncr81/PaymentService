@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="CP.VPOS" Version="1.8.7" />
+    <PackageReference Include="Iyzipay" Version="2.1.66" />
   </ItemGroup>
 
 </Project>

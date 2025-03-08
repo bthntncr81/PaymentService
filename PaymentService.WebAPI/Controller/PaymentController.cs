@@ -1,6 +1,8 @@
 using CP.VPOS;
 using CP.VPOS.Models;
 using GTBack.Core.Services;
+using Iyzipay;
+using Iyzipay.Request.V2.Subscription;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 using PaymentService.Core.DTO;
@@ -28,6 +30,20 @@ namespace GTBack.WebAPI.Controllers.Ecommerce
 
             return ApiResult(response);
         }
+
+
+      // Handle 3D Payment Response
+        [HttpPost("Subscribe")]
+        public async Task<IActionResult> Subscribe(SubscriptionSaleDTO request)
+        {
+
+            var response = await _paymentService.SaleSubscription(request);
+
+            return ApiResult(response);
+        }
+
+
+
 
         [HttpPost("PaymentCallBack")]
         public async Task<IActionResult> PaymentCallBack([FromQuery] string bankCode, string merchantID, string merchantUser, string merchantPassword, string merchantStorekey, string orderNumber)
@@ -118,6 +134,19 @@ namespace GTBack.WebAPI.Controllers.Ecommerce
                 testPlatform = false  // Set true if it's a test environment
             };
             var response = await _paymentService.GetAllInstallment(model, virtualPosAuth);
+
+            return ApiResult(response);
+
+        }
+
+
+
+        [HttpPost("AddSubscription")]
+
+        public async Task<IActionResult> AddSubscription(AddSubscriptionDTO data)
+        {
+
+            var response = await _paymentService.AddSubscription(data.Model, data.Pos);
 
             return ApiResult(response);
 
