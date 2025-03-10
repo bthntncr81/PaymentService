@@ -63,19 +63,6 @@
           }
         }
       },
-      "CP.VPOS/1.8.8": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "13.0.1",
-          "System.ComponentModel.Annotations": "5.0.0"
-        },
-        "compile": {
-          "lib/net8.0/CP.VPOS.dll": {}
-        },
-        "runtime": {
-          "lib/net8.0/CP.VPOS.dll": {}
-        }
-      },
       "FluentValidation/11.11.0": {
         "type": "package",
         "compile": {
@@ -1358,11 +1345,25 @@
           }
         }
       },
+      "CP.VPOS/1.8.8": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CP.VPOS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CP.VPOS.dll": {}
+        }
+      },
       "PaymentService.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "CP.VPOS": "1.8.7",
+          "CP.VPOS": "1.8.8",
           "Iyzipay": "2.1.66"
         },
         "compile": {
@@ -1376,6 +1377,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CP.VPOS": "1.8.8",
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
           "Microsoft.Extensions.Configuration": "9.0.0",
@@ -1445,27 +1447,6 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
-      ]
-    },
-    "CP.VPOS/1.8.8": {
-      "sha512": "FMd0U/xvQZfN89Bpld7kXbIdn34N0VcVDC4WC0qSSP+wuaUu5/3c03dwDvd6TtZv1Rp9GfGca+hd0EdlrAPnkQ==",
-      "type": "package",
-      "path": "cp.vpos/1.8.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "cp.vpos.1.8.8.nupkg.sha512",
-        "cp.vpos.nuspec",
-        "lib/net40/CP.VPOS.dll",
-        "lib/net45/CP.VPOS.dll",
-        "lib/net5.0/CP.VPOS.dll",
-        "lib/net6.0/CP.VPOS.dll",
-        "lib/net7.0/CP.VPOS.dll",
-        "lib/net8.0/CP.VPOS.dll",
-        "lib/netstandard2.0/CP.VPOS.dll",
-        "lib/netstandard2.1/CP.VPOS.dll",
-        "packageIcon.png"
       ]
     },
     "FluentValidation/11.11.0": {
@@ -3725,6 +3706,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "CP.VPOS/1.8.8": {
+      "type": "project",
+      "path": "../cp.vpos/CP.VPOS.csproj",
+      "msbuildProject": "../cp.vpos/CP.VPOS.csproj"
+    },
     "PaymentService.Data/1.0.0": {
       "type": "project",
       "path": "../PaymentService.Data/PaymentService.Data.csproj",
@@ -3773,6 +3759,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/cp.vpos/CP.VPOS.csproj": {
+              "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/cp.vpos/CP.VPOS.csproj"
+            },
             "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Data/PaymentService.Data.csproj": {
               "projectPath": "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Data/PaymentService.Data.csproj"
             },
@@ -3800,10 +3789,6 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[13.0.1, )"
-          },
-          "CP.VPOS": {
-            "target": "Package",
-            "version": "[1.8.8, )"
           },
           "FluentValidation": {
             "target": "Package",

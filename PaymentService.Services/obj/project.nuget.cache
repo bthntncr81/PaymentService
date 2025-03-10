@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "pVyJ85sl7UE=",
+  "dgSpecHash": "TR2TdJQ7kKQ=",
   "success": true,
   "projectFilePath": "/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Services/PaymentService.Services.csproj",
   "expectedPackageFiles": [
     "/Users/omerbatuhantuncer/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/omerbatuhantuncer/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/omerbatuhantuncer/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
-    "/Users/omerbatuhantuncer/.nuget/packages/cp.vpos/1.8.8/cp.vpos.1.8.8.nupkg.sha512",
     "/Users/omerbatuhantuncer/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
     "/Users/omerbatuhantuncer/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "/Users/omerbatuhantuncer/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
@@ -78,7 +77,8 @@
     "/Users/omerbatuhantuncer/.nuget/packages/system.text.encodings.web/9.0.0/system.text.encodings.web.9.0.0.nupkg.sha512",
     "/Users/omerbatuhantuncer/.nuget/packages/system.text.json/9.0.0/system.text.json.9.0.0.nupkg.sha512",
     "/Users/omerbatuhantuncer/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "/Users/omerbatuhantuncer/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512"
+    "/Users/omerbatuhantuncer/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
+    "/Users/omerbatuhantuncer/.nuget/packages/cp.vpos/1.8.8/cp.vpos.1.8.8.nupkg.sha512"
   ],
   "logs": []
 }

@@ -23,3 +23,6 @@
 /Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Data/obj/Debug/net8.0/refint/PaymentService.Data.dll
 /Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Data/obj/Debug/net8.0/PaymentService.Data.pdb
 /Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Data/obj/Debug/net8.0/ref/PaymentService.Data.dll
+/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Data/bin/Debug/net8.0/CP.VPOS.dll
+/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Data/bin/Debug/net8.0/CP.VPOS.pdb
+/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Data/obj/Debug/net8.0/PaymentS.0AFF398F.Up2Date

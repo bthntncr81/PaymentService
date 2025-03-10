@@ -224,3 +224,4 @@
 /Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.WebAPI/obj/Debug/net8.0/PaymentService.WebAPI.pdb
 /Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.WebAPI/obj/Debug/net8.0/PaymentService.WebAPI.genruntimeconfig.cache
 /Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.WebAPI/obj/Debug/net8.0/ref/PaymentService.WebAPI.dll
+/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.WebAPI/bin/Debug/net8.0/CP.VPOS.pdb

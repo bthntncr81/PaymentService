@@ -33,3 +33,5 @@
 /Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Repository/obj/Debug/net8.0/PaymentService.Repository.pdb
 /Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Repository/obj/Debug/net8.0/PaymentService.Repository.genruntimeconfig.cache
 /Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Repository/obj/Debug/net8.0/ref/PaymentService.Repository.dll
+/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Repository/bin/Debug/net8.0/CP.VPOS.dll
+/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/PaymentService.Repository/bin/Debug/net8.0/CP.VPOS.pdb

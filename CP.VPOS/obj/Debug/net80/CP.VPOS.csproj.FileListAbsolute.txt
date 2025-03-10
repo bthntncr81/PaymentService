@@ -1,0 +1,13 @@
+/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/cp.vpos/bin/Debug/net80/CP.VPOS.deps.json
+/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/CP.VPOS/bin/Debug/net80/CP.VPOS.dll
+/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/CP.VPOS/bin/Debug/net80/CP.VPOS.pdb
+/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/CP.VPOS/obj/Debug/net80/CP.VPOS.csproj.AssemblyReference.cache
+/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/CP.VPOS/obj/Debug/net80/CP.VPOS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/CP.VPOS/obj/Debug/net80/CP.VPOS.AssemblyInfoInputs.cache
+/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/CP.VPOS/obj/Debug/net80/CP.VPOS.AssemblyInfo.cs
+/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/CP.VPOS/obj/Debug/net80/CP.VPOS.csproj.CoreCompileInputs.cache
+/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/CP.VPOS/obj/Debug/net80/CP.VPOS.sourcelink.json
+/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/CP.VPOS/obj/Debug/net80/CP.VPOS.dll
+/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/CP.VPOS/obj/Debug/net80/refint/CP.VPOS.dll
+/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/CP.VPOS/obj/Debug/net80/CP.VPOS.pdb
+/Users/omerbatuhantuncer/Documents/GitHub/PharmacyAdmin/PaymentService/cp.vpos/obj/Debug/net80/ref/CP.VPOS.dll

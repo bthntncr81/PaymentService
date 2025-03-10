@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-using Azure.Core;
-using CP.VPOS;
-using CP.VPOS.Models;
+
 using GTBack.Core.Results;
 using GTBack.Core.Services;
+using CP.VPOS.Models;
 
 using PaymentService.Core.DTO;
 using Iyzipay;
@@ -15,10 +14,8 @@ using Iyzipay.Model.V2.Subscription;
 using Iyzipay.Request.V2.Subscription;
 using Iyzipay.Model.V2;
 using Iyzipay.Model;
-using System.Globalization;
+using CP.VPOS;
 using CP.VPOS.Enums;
-using Iyzipay.Model.V2.Subscription;
-using Iyzipay.Request.V2.Subscription;
 
 public class PayService : IPaymentService
 {

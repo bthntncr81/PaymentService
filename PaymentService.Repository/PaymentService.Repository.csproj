@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PaymentService.Data\PaymentService.Data.csproj" />
+    <ProjectReference Include="..\cp.vpos\CP.VPOS.csproj" />
   </ItemGroup>
 
   <ItemGroup>

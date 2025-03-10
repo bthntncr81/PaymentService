@@ -67,18 +67,6 @@
           }
         }
       },
-      "CP.VPOS/1.8.8": {
-        "dependencies": {
-          "Newtonsoft.Json": "13.0.2",
-          "System.ComponentModel.Annotations": "5.0.0"
-        },
-        "runtime": {
-          "lib/net8.0/CP.VPOS.dll": {
-            "assemblyVersion": "1.8.8.0",
-            "fileVersion": "1.8.8.0"
-          }
-        }
-      },
       "FluentValidation/11.11.0": {
         "runtime": {
           "lib/net8.0/FluentValidation.dll": {
@@ -840,6 +828,18 @@
           }
         }
       },
+      "CP.VPOS/1.8.8": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2",
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
+        "runtime": {
+          "CP.VPOS.dll": {
+            "assemblyVersion": "1.8.8",
+            "fileVersion": "1.8.8"
+          }
+        }
+      },
       "PaymentService.Data/1.0.0": {
         "dependencies": {
           "CP.VPOS": "1.8.8",
@@ -854,6 +854,7 @@
       },
       "PaymentService.Repository/1.0.0": {
         "dependencies": {
+          "CP.VPOS": "1.8.8",
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
           "Microsoft.Extensions.Configuration": "9.0.0",
@@ -897,13 +898,6 @@
       "sha512": "sha512-Sf4BoE6Q3jTgFkgBkx7qztYOFELBCo+wQgpYDwal/qJ1unBH73ywPztIJKXBXORRzAeNijsuxhk94h0TIMvfYg==",
       "path": "azure.identity/1.11.4",
       "hashPath": "azure.identity.1.11.4.nupkg.sha512"
-    },
-    "CP.VPOS/1.8.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-FMd0U/xvQZfN89Bpld7kXbIdn34N0VcVDC4WC0qSSP+wuaUu5/3c03dwDvd6TtZv1Rp9GfGca+hd0EdlrAPnkQ==",
-      "path": "cp.vpos/1.8.8",
-      "hashPath": "cp.vpos.1.8.8.nupkg.sha512"
     },
     "FluentValidation/11.11.0": {
       "type": "package",
@@ -1401,6 +1395,11 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "CP.VPOS/1.8.8": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "PaymentService.Data/1.0.0": {
       "type": "project",

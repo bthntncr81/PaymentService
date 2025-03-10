@@ -8,23 +8,11 @@
     ".NETCoreApp,Version=v8.0": {
       "PaymentService.Data/1.0.0": {
         "dependencies": {
-          "CP.VPOS": "1.8.7",
+          "CP.VPOS": "1.8.8",
           "Iyzipay": "2.1.66"
         },
         "runtime": {
           "PaymentService.Data.dll": {}
-        }
-      },
-      "CP.VPOS/1.8.7": {
-        "dependencies": {
-          "Newtonsoft.Json": "13.0.2",
-          "System.ComponentModel.Annotations": "5.0.0"
-        },
-        "runtime": {
-          "lib/net8.0/CP.VPOS.dll": {
-            "assemblyVersion": "1.8.7.0",
-            "fileVersion": "1.8.7.0"
-          }
         }
       },
       "Iyzipay/2.1.66": {
@@ -46,7 +34,19 @@
           }
         }
       },
-      "System.ComponentModel.Annotations/5.0.0": {}
+      "System.ComponentModel.Annotations/5.0.0": {},
+      "CP.VPOS/1.8.8": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2",
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
+        "runtime": {
+          "CP.VPOS.dll": {
+            "assemblyVersion": "1.8.8",
+            "fileVersion": "1.8.8"
+          }
+        }
+      }
     }
   },
   "libraries": {
@@ -54,13 +54,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "CP.VPOS/1.8.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-BBknkHUD9c6kPWAlZnDNmCUzVeK322Ex3ENU6eQhLUq37rRcvXH4ERO5tfdHS1nTeTEuxk/VAcnvbw5M3mYcsg==",
-      "path": "cp.vpos/1.8.7",
-      "hashPath": "cp.vpos.1.8.7.nupkg.sha512"
     },
     "Iyzipay/2.1.66": {
       "type": "package",
@@ -82,6 +75,11 @@
       "sha512": "sha512-dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
       "path": "system.componentmodel.annotations/5.0.0",
       "hashPath": "system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    },
+    "CP.VPOS/1.8.8": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
