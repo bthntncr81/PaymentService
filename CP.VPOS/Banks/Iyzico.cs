@@ -132,7 +132,7 @@ namespace CP.VPOS.Banks.Iyzico
             secondBasketItem.Id = "TAHSILAT";
             secondBasketItem.Name = "Cari Tahsilat";
             secondBasketItem.Category1 = "Tahsilat";
-            secondBasketItem.ItemType = BasketItemType.VIRTUAL.ToString();
+            secondBasketItem.ItemType = BasketItemType.PHYSICAL.ToString();
             secondBasketItem.Price = request.saleInfo.amount.ToString("N2", CultureInfo.GetCultureInfo("tr-TR")).Replace(".", "").Replace(",", ".");
             basketItems.Add(secondBasketItem);
             req.BasketItems = basketItems;

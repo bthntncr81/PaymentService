@@ -44,7 +44,7 @@ public class PayService : IPaymentService
                 merchantUser = model.MerchantUser,  // Use the appropriate merchant user
                 merchantPassword = model.MerchantPassword,  // Use the appropriate merchant password
                 merchantStorekey = model.MerchantStorekey,  // Use the appropriate merchant storekey
-                testPlatform = true  // Set true if it's a test environment
+                testPlatform = model.TestPlatform  // Set true if it's a test environment
             };
 
             // Create the CustomerInfo object from the PaymentProcessDTO
@@ -173,7 +173,7 @@ public class PayService : IPaymentService
                 merchantUser = model.MerchantUser,  // Use the appropriate merchant user
                 merchantPassword = model.MerchantPassword,  // Use the appropriate merchant password
                 merchantStorekey = model.MerchantStorekey,  // Use the appropriate merchant storekey
-                testPlatform = true  // Set true if it's a test environment
+                testPlatform = model.TestPlatform  // Set true if it's a test environment
             };
 
             // Create the CustomerInfo object from the PaymentProcessDTO
@@ -264,7 +264,7 @@ public class PayService : IPaymentService
                 merchantUser = request.MerchantUser,  // Use the appropriate merchant user
                 merchantPassword = request.MerchantPassword,  // Use the appropriate merchant password
                 merchantStorekey = request.MerchantStorekey,  // Use the appropriate merchant storekey
-                testPlatform = true  // Set true if it's a test environment
+                testPlatform = request.TestPlatform  // Set true if it's a test environment
             };
     // Subscription request objesi oluşturuluyor
     SubscriptionInitializeRequest req = new SubscriptionInitializeRequest()

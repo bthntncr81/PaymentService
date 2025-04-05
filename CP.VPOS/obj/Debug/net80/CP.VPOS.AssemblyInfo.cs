@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © Cem Pehlivan 2021-2024")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Sanal POS")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.8.8")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.8.8+f56139442d230ac03bf8d36fa1f5a01070293bfa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.8.8+071620dbdfe3d423324b20828489f6c6cf822137")]
 [assembly: System.Reflection.AssemblyProductAttribute("CP.VPOS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CP.VPOS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.8.8")]
